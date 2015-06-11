@@ -3,6 +3,6 @@
 	'use strict';
 
 	angular
-	  .module('demo', [ 'the-cormoran.loaderscss' ]);
+	  .module('demo', [ 'the-cormoran.angular-loaders' ]);
 
 })();

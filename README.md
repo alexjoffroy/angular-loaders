@@ -14,4 +14,4 @@ angular.module('myModule', ['the-cormoran.angular-loaders']);
 
 # Demo
 
-WIP
+Check out the demo: http://the-cormoran.github.io/angular-loaders/
