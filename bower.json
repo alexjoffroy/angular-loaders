@@ -8,6 +8,7 @@
   "main": "./angular-loaders.js",
   "keywords": [
     "angular",
+    "directive",
     "loader",
     "animations",
     "css"
@@ -22,7 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.0",
+    "angular": ">= 1",
     "loaders.css": "~0.1.1"
   }
 }
