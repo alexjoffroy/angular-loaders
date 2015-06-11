@@ -1,0 +1,60 @@
+<!DOCTYPE html5>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:600,300" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="demo.css"/>
+  <link rel="stylesheet" type="text/css" href="../bower_components/loaders.css/loaders.css"/>
+</head>
+<body>
+  <div class="main loaded" ng-app="demo">
+    <header>
+      <div class="left">
+        <h1>Angular Loaders</h1>
+        <h2>Set of directives to implement the awesome library <a href="https://github.com/ConnorAtherton/loaders.css">Loaders.css</a></h2>
+      </div>
+      <div class="right"><a href="https://github.com/the-cormoran/angular-loaders" class="btn right">View on Github</a></div>
+    </header>
+    <div class="content">
+        <div class="code">
+          <code>&lt;div loader-css="
+            <select ng-model="loader" ng-init="loader = 'ball-pulse'">
+              <option value="ball-pulse">ball-pulse</option>
+              <option value="ball-grid-pulse">ball-grid-pulse</option>
+              <option value="ball-clip-rotate">ball-clip-rotate</option>
+              <option value="ball-clip-rotate-pulse">ball-clip-rotate-pulse</option>
+              <option value="square-spin">square-spin</option>
+              <option value="ball-clip-rotate-multiple">ball-clip-rotate-multiple</option>
+              <option value="ball-pulse-rise">ball-pulse-rise</option>
+              <option value="ball-rotate">ball-rotate</option>
+              <option value="cube-transition">cube-transition</option>
+              <option value="ball-zig-zag">ball-zig-zag</option>
+              <option value="ball-zig-zag-deflect">ball-zig-zag-deflect</option>
+              <option value="ball-triangle-path">ball-triangle-path</option>
+              <option value="ball-scale">ball-scale</option>
+              <option value="line-scale">line-scale</option>
+              <option value="line-scale-party">line-scale-party</option>
+              <option value="ball-scale-multiple">ball-scale-multiple</option>
+              <option value="ball-pulse-sync">ball-pulse-sync</option>
+              <option value="ball-beat">ball-beat</option>
+              <option value="line-scale-pulse-out">line-scale-pulse-out</option>
+              <option value="line-scale-pulse-out-rapid">line-scale-pulse-out-rapid</option>
+              <option value="ball-scale-ripple">ball-scale-ripple</option>
+              <option value="ball-scale-ripple-multiple">ball-scale-ripple-multiple</option>
+              <option value="ball-spin-fade-loader">ball-spin-fade-loader</option>
+              <option value="line-spin-fade-loader">line-spin-fade-loader</option>
+              <option value="triangle-skew-spin">triangle-skew-spin</option>
+              <option value="pacman">pacman</option>
+              <option value="ball-grid-beat">ball-grid-beat</option>
+              <option value="semi-circle-spin">semi-circle-spin</option>
+            </select>
+          ">&lt;/div></code>
+        </div>
+
+        <div loader-css={{loader}}></div>
+
+    </div>
+  </div>
+
+  <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="../angular-loaders.js"></script>
+  <script src="demo.js"></script>
+</body>

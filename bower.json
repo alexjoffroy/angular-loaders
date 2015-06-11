@@ -1,0 +1,28 @@
+{
+  "name": "angular-loaders",
+  "version": "0.1.0",
+  "authors": [
+    "The Cormoran <the-cormoran@github.com>"
+  ],
+  "description": "Set of directives to implement the awesome library Loaders.css",
+  "main": "./angular-loaders.js",
+  "keywords": [
+    "angular",
+    "loader",
+    "animations",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/the-cormoran/angular-loaders",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "loaders.css": "~0.1.1"
+  }
+}
