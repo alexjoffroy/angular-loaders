@@ -3,7 +3,7 @@
 	'use strict';
 
 	angular
-		.module("the-cormoran.angular-loaders", [] )
+		.module("alexjoffroy.angular-loaders", [] )
 		.directive('loaderCss', loader); 
 
 	function loader() {

@@ -1,11 +1,11 @@
 {
   "name": "angular-loaders",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "authors": [
-    "The Cormoran <the-cormoran@github.com>"
+    "Cormoran <alexjoffroy@github.com>"
   ],
   "description": "Set of directives to implement the awesome library Loaders.css",
-  "main": "./angular-loaders.js",
+  "main": "./dist/angular-loaders.js",
   "keywords": [
     "angular",
     "directive",
@@ -14,17 +14,12 @@
     "css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/the-cormoran/angular-loaders",
+  "homepage": "https://github.com/alexjoffroy/angular-loaders",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "gulpfile.js"
-  ],
-  "dependencies": {
-    "angular": ">= 1",
-    "loaders.css": "~0.1.1"
-  }
+    "tests"
+  ]
 }

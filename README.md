@@ -4,16 +4,20 @@ This project was build for Angular 1.x.
 
 # Installation
 
-#### Install with Bower
-```sh
-$ bower install angular-loaders
+#### Install
+```
+$ npm install --save angular-loaders
+```
+or
+```
+$ bower install --save angular-loaders
 ```
 
 #### Adding dependency to your project
 ```js
-angular.module('myModule', ['the-cormoran.angular-loaders']);
+angular.module('myModule', ['alexjoffroy.angular-loaders']);
 ```
 
 # Demo
 
-Check out the demo: http://alexjoffroy.github.io/angular-loaders/
+Check out the demo: http://alexjoffroy.github.io/angular-loaders/demo

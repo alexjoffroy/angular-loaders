@@ -1,14 +1,14 @@
 {
   "name": "angular-loaders",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Set of directives to implement the awesome library Loaders.css",
-  "main": "angular-loaders.js",
+  "main": "dist/angular-loaders.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ng-annotate -a ./src/angular-loaders.js > ./dist/angular-loaders.js && uglifyjs ./dist/angular-loaders.js -o ./dist/angular-loaders.min.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/the-cormoran/angular-loaders.git"
+    "url": "https://github.com/alexjoffroy/angular-loaders.git"
   },
   "keywords": [
     "angular",
@@ -19,14 +19,11 @@
   "author": "The Cormoran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/the-cormoran/angular-loaders/issues"
+    "url": "https://github.com/alexjoffroy/angular-loaders/issues"
   },
-  "homepage": "https://github.com/the-cormoran/angular-loaders#readme",
+  "homepage": "https://github.com/alexjoffroy/angular-loaders",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-jshint": "^1.11.0",
-    "gulp-load-plugins": "^1.0.0-rc.1",
-    "gulp-uglify": "^1.2.0"
+    "ng-annotate": "^1.2.1",
+    "uglifyjs": "^2.4.10"
   }
 }
