@@ -2,6 +2,10 @@ Angular Loaders - [AngularJS](http://angularjs.org/) wrapper for the awesome lib
 
 This project was build for Angular 1.x.
 
+<a href="https://www.npmjs.com/package/angular-loaders"><img src="https://img.shields.io/npm/dt/angular-loaders.svg" alt="Total Downloads"></a>
+<a href="https://github.com/alexjoffroy/angular-loaders/releases"><img src="https://img.shields.io/npm/v/angular-loaders.svg" alt="Latest Release"></a>
+<a href="https://github.com/alexjoffroy/angular-loaders/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/angular-loaders.svg" alt="License"></a>
+
 # Installation
 
 ```
